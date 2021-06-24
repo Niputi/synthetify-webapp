@@ -7,7 +7,7 @@ interface IProps {
   error?: string | null
 }
 
-export const AmountInputExchange: React.FC<IProps> = ({ setValue, error }) => {
+export const ExchangeInput: React.FC<IProps> = ({ setValue, error }) => {
   const classes = useStyles()
   return (
     <Input
@@ -23,4 +23,4 @@ export const AmountInputExchange: React.FC<IProps> = ({ setValue, error }) => {
     />
   )
 }
-export default AmountInputExchange
+export default ExchangeInput
